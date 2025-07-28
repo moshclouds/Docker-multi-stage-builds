@@ -107,5 +107,5 @@ If you'd like to contribute or enhance this project, feel free to fork the repo 
 
 
 
-Thank you for checking out this project! Follow me on [Medium](https://medium.com/@moshclouds) for more developer insights.
+Thank you for checking out this project! Follow me on [Medium](https://medium.com/@moshdev2213) for more developer insights.
 
