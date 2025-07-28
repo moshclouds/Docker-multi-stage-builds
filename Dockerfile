@@ -1,5 +1,5 @@
 # ----------- STAGE 1: Build the application -----------
-FROM maven:3.9.6-eclipse-temurin-21 as build
+FROM maven:3.9.6-eclipse-temurin-21 AS build
 
 # Set work directory
 WORKDIR /app
@@ -28,3 +28,4 @@ COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8890
 
 # Run the application
+ENTRYPOINT ["java", "-jar", "app.jar"]
