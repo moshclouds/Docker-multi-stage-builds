@@ -1,5 +1,5 @@
 # ----------- STAGE 1: Build the application -----------
-FROM maven:3.9.6-eclipse-temurin-21 as build
+FROM maven:3.9.6-eclipse-temurin-21 AS build
 
 # Set work directory
 WORKDIR /app
